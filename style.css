@@ -1,0 +1,381 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    scroll-behavior: smooth;
+}
+/* style css header start  */
+.header{
+    position:fixed;
+    top: 0%; left: 0%; right: 0%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    padding: 3px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);}
+.header .logo{
+    font-size: 2rem;
+    color: #333;
+    font-weight: bolder;}
+.header .logo span{
+    color: pink;}
+.header .menu a{
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    color: #666;}
+.fa-heart:hover{ color: pink;}
+.header .fas{
+    font-size: 1.3rem;
+    color: #333;
+    gap: none;
+    padding-right: 2rem;
+}
+.fas:hover{
+      color: pink;}
+.menu a:hover{
+        color: pink;}
+
+/* end style header  */
+
+
+/* Home section style start  */
+
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fbe4ea;
+}
+.img1{
+    width: 600px;
+}
+.ww{
+    padding-left: 90px;
+}
+.h11{
+    font-size: 5rem;
+}
+.h22{
+    font-size: 2rem;
+    color: rgb(253, 139, 158);
+    padding-bottom: 10px;
+}
+.p11{
+    font-size: 1.2rem;
+    color: grey;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+button{
+    background-color: black;
+    border: none;
+    padding:.8rem 4rem;
+    color: white;
+    border-radius: 50px;
+    margin-top:1rem;
+    font-size: 1rem;
+}
+button:hover{
+    background-color: #999;
+    color: white;
+    border: 1px solid;
+}
+.boxyar p{
+    color: #999;
+    font-size: .9rem;
+}
+
+/* End Home Section style  */
+
+/* About Section style start  */
+
+.body2{
+    background-color:#fbe4ea;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+    padding: 10px;
+    padding-left: 500px;
+    color: rgb(253, 139, 158) ;
+}
+span{
+    color: black;
+}
+.body3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.img2{
+    width: 600px;
+    height: 300px;
+}
+.h222{
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+}
+.p111{
+    font-size: 1.2rem;
+    color: grey;
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.body4{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 50px;
+    background-color: rgb(207, 203, 203);
+    margin-top: 20px;
+}
+.box{
+    background-color: white;
+    padding:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+ion-icon {
+    font-size:2rem;
+    padding-right: 10px;
+}
+
+
+/* End About section style  */
+
+
+/* product section style  start  */
+
+.qeybta1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    box-shadow: 1px 2px 1px 0px rgba(1, 2, 1,grey);
+}
+.kujire{
+    text-align: center;
+    width: 20%;
+    height:370px;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.kujire2{
+    text-align: center;
+    width: 20%;
+    height:350px;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.img8{
+    padding-bottom: 10px;
+}
+.by{
+    background: none;
+    width: 150px;
+    margin-left: 30px;
+    height: 20px;
+    border: 1px solid;
+    padding: .5rem 1rem;
+    margin-top: 1.5rem;
+    color: #333;
+    border-radius: nonew;
+}
+.by a{
+    color: #333;
+}
+ .by:hover{
+    background-color: rgb(58, 228, 58);
+    color: white;
+}
+.img3{
+    width: 170px;
+    padding-top: 2.2rem;
+}
+.qeybta2{
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 20px;
+    box-shadow: 1px 2px 1px 0px rgba(1, 2, 1,grey);
+}
+h4{
+    font-size: 1.5rem;
+    padding-top:5px;
+    color: rgb(253, 139, 158);
+}
+.span2{
+    background-color: pink;
+    padding: .2rem .3rem;
+    margin-right: 18rem;
+    border-radius: 10rem;
+    margin-bottom: 5rem;
+
+}
+
+/* End product section  */
+
+
+/* Review section style astart  */
+
+.Review .Xog{
+    display: flex;
+    gap: 10px;
+    padding: 40px;
+    height: 300px;
+    justify-content: center;
+}
+.xogkle{
+    gap: 10px;
+    flex: 1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.xogkle .tt{
+    position: absolute;
+    bottom: 10px;right:50px;
+    font-size: 3rem;
+    color: #eee;
+}
+.stars .fas{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+.stars i{
+    color: pink;
+    font-size: 1.5rem;
+}
+.xogklep{
+    width: 10px;
+    height: 200px;
+    color: #999;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
+.xogkle p{
+    line-height: 1.3rem;
+    color: grey;
+    font-size: 1rem;
+}
+.user{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+.user img{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+.user h3{
+    font-size: 1.4rem;
+    color: #333;
+    padding-bottom: .3rem;
+}
+.user span{
+    font-size:.9rem;
+    color: #999;
+    padding-left: .3rem;
+}
+.img22{
+    width: 200px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.span .fas{
+    padding-left: 4.2rem;
+    font-size: 3rem;
+    color:#cccw;
+}
+/* End Review section style  */
+
+.qeybta3{
+    padding: 20px;
+    padding-bottom: 10px;
+    color: #333;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.ulwaa li a{
+    color: #666;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+    line-height: 2;
+    font: size 1rem;
+}
+.ulwaa li{
+    text-decoration: none;
+    list-style: none;
+    padding-left: .2rem;
+}
+.h333{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+/* Contect section Style start  */
+.inbut{
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+    padding: 3rem 5rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+input[type="email"] {
+    
+    padding-left: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.last{
+display: flex;
+justify-content:space-between;
+align-items: center;
+padding: 20px;
+gap:250px;
+}
+.img6{
+    width: 600px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}
+/* End Contect section style  */
+
+/* last futer style start */
+.lastfuter{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f5f2f2;
+}
+.lastfuter span{
+    color: rgb(247, 123, 143);
+}
